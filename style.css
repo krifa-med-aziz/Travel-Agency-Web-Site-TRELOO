@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-image: url(assets/background\ image.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 952px;
+}
+/*-----------------------Navbar--------------------
+-------------------------------------------------*/
+.navbar .navbar-brand {
+  font-size: 48px;
+  color: white;
+}
+.navbar .navbar-brand:hover {
+  color: white;
+}
+.navbar .collapse ul li a {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+.navbar .collapse ul li a:hover {
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+.navbar .collapse form button {
+  background-color: white;
+  color: #3e86f5;
+  border-color: white;
+  font-size: 18px;
+  transition: 0.2s ease-in-out;
+}
+.navbar .collapse form button:hover {
+  color: white;
+  background-color: #3e86f5;
+  border-color: #3e86f5;
+  transition: 0.2s ease-in-out;
+}
+/*-----------------------Landing page--------------------
+-------------------------------------------------*/
+header .landing-page {
+  padding-top: 170px;
+}
+header .landing-page p,
+header .landing-page h1 {
+  font-size: 64px;
+  font-weight: 600;
+  color: white;
+  line-height: 1.6;
+}
+header .landing-page p {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.689);
+}
+@media (max-width: 1200px) {
+  header .landing-page h1 {
+    font-size: 54px;
+  }
+  header .landing-page p {
+    font-size: 20px;
+  }
+  .navbar .navbar-brand {
+    font-size: 38px;
+  }
+  .navbar .collapse ul li a {
+    font-size: 18px;
+  }
+  .navbar .collapse form button {
+    font-size: 18px;
+  }
+}
+@media (max-width: 992px) {
+  header .landing-page {
+    padding-top: 100px;
+  }
+  header .landing-page h1 {
+    font-size: 40px;
+  }
+  header .landing-page p {
+    font-size: 16px;
+  }
+  .navbar .navbar-brand {
+    font-size: 30px;
+  }
+  .navbar .collapse ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  header .landing-page {
+    padding-top: 40px;
+  }
+  header .landing-page h1 {
+    font-size: 25px;
+  }
+  header .landing-page p {
+    font-size: 15px;
+  }
+  .navbar .navbar-brand {
+    font-size: 25px;
+  }
+  .navbar .collapse ul li a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 576px) {
+  header .landing-page {
+    padding-top: 20px;
+  }
+  header .landing-page h1 {
+    font-size: 18px;
+  }
+  header .landing-page p {
+    font-size: 12px;
+  }
+  .navbar .navbar-brand {
+    font-size: 18px;
+  }
+  .navbar .collapse form button,
+  .navbar .collapse ul li a {
+    font-size: 13px;
+  }
+}
+@media (max-width: 470px) {
+  header .landing-page {
+    padding-top: 10px;
+  }
+  header .landing-page h1 {
+    font-size: 12px;
+  }
+  header .landing-page p {
+    font-size: 8px;
+  }
+  .navbar .navbar-brand {
+    font-size: 16px;
+  }
+  .navbar .collapse ul li a {
+    font-size: 10px;
+  }
+}
