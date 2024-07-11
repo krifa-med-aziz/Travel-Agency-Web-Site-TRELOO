@@ -164,10 +164,17 @@ main {
 .offers .container h1 {
   font-weight: 600;
 }
-.offers .container .buttons {
-  background-color: white;
+.offers .container .buttons .bt-links {
   border-radius: 10px;
-  width: 25%;
-  margin: auto;
   box-shadow: 0px 5px 25px 0px #eaebec;
+  background-color: white;
+}
+.offers .container .offers-details .row .col .picture p {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+.offers .container .offers-details .row .col .offer1,
+.offers .container .offers-details .row .col .offer2,
+.offers .container .offers-details .row .col .offer3 {
+  border: solid red 2px;
 }
