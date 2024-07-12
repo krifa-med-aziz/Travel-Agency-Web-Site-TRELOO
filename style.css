@@ -164,17 +164,70 @@ main {
 .offers .container h1 {
   font-weight: 600;
 }
+.offers .container .offers-details .row .col-12 .offer1,
+.offers .container .offers-details .row .col-12 .offer2,
+.offers .container .offers-details .row .col-12 .offer3,
 .offers .container .buttons .bt-links {
   border-radius: 10px;
   box-shadow: 0px 5px 25px 0px #eaebec;
   background-color: white;
 }
-.offers .container .offers-details .row .col .picture p {
+.offers .container .offers-details .row .col-12 .picture p {
   writing-mode: vertical-rl;
-  text-orientation: upright;
+  color: #00000085;
+  font-size: 18px;
 }
-.offers .container .offers-details .row .col .offer1,
-.offers .container .offers-details .row .col .offer2,
-.offers .container .offers-details .row .col .offer3 {
-  border: solid red 2px;
+.offers .container .offers-details .row .col-12 .offer1,
+.offers .container .offers-details .row .col-12 .offer2,
+.offers .container .offers-details .row .col-12 .offer3 {
+  border-radius: 50px;
+}
+.offers .container .offers-details .row .col-12 .offer1 .description .type,
+.offers .container .offers-details .row .col-12 .offer3 .description .type {
+  color: #f178b6;
+  background-color: #fcddec;
+  border-radius: 50px;
+  font-weight: 450;
+  font-size: 15px;
+}
+.offers .container .offers-details .row .col-12 .offer2 .description .type {
+  color: #7879f1;
+  background-color: #f1f1fd;
+  border-radius: 50px;
+  font-weight: 450;
+  font-size: 15px;
+}
+
+.offers .container .offers-details .row .col-12 .description .period {
+  color: #0000006a;
+  font-size: 14px;
+}
+
+.offers .container .offers-details .row .col-12 .description .place {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.offers .container .offers-details .row .col-12 .description .price p {
+  color: #000000a1;
+  font-size: 14px;
+  font-weight: 400;
+  margin: auto 0px;
+}
+.offers .container .offers-details .row .col-12 .description .price span {
+  color: black;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offers .container .offers-details .row .col-12 .description .price a {
+  text-decoration: none;
+  background-color: #f2f6ff;
+  border-radius: 10px;
+  color: #3e86f5;
+  transition: 0.2s ease-in-out;
+  font-weight: 500;
+}
+.offers .container .offers-details .row .col-12 .description .price a:hover {
+  color: #3e86f5;
+  transition: 0.2s ease-in-out;
 }
