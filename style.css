@@ -231,3 +231,92 @@ main {
   color: #3e86f5;
   transition: 0.2s ease-in-out;
 }
+/*-----------------------contact-us--------------------
+-------------------------------------------------*/
+.contact-us {
+  margin: 200px 0px;
+}
+.contact-us .container .row .col-12 h1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+.contact-us .container .row .col-12 p {
+  color: #0000007b;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+.contact-us .container .row .col-12 a {
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0px 5px 25px 0px #a0caf4;
+}
+.contact-us .container .row .col-12 .picture {
+  position: relative;
+  z-index: 1;
+  border: solid red 2px;
+}
+.contact-us .container .box {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 5px 25px 0px #eaebec;
+  position: absolute;
+  z-index: 2;
+}
+.contact-us .container .box:nth-of-type(1) {
+  top: 0;
+  right: 0;
+}
+.contact-us .container .box:nth-of-type(2) {
+  bottom: 0;
+  right: 0;
+}
+.contact-us .container .box:nth-of-type(3) {
+  right: 0;
+}
+.contact-us .container .box p:nth-of-type(1) {
+  font-weight: 600;
+  font-size: 36px;
+}
+.contact-us .container .box p:nth-of-type(2) {
+  font-weight: 400;
+  font-size: 13px;
+}
+/*-----------------------Destinations--------------------
+-------------------------------------------------*/
+.destinations .container h1 {
+  font-weight: 600;
+}
+.destinations .container .links a {
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 10px;
+  color: #00000090;
+  transition: 0.2s ease-in-out;
+}
+.destinations .container .links a:nth-of-type(1) {
+  background-color: white;
+}
+.destinations .container .links a:hover {
+  background-color: white;
+  transition: 0.2s ease-in-out;
+}
+.destinations .container .boxs .row .col-12 .dest4,
+.destinations .container .boxs .row .col-12 .dest3,
+.destinations .container .boxs .row .col-12 .dest2,
+.destinations .container .boxs .row .col-12 .dest1 {
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 5px 25px 0px #eaebec;
+}
+.destinations .container .boxs .row .col-12 p:nth-of-type(1) {
+  font-weight: 600;
+  font-size: 18px;
+}
+.destinations .container .boxs .row .col-12 p:nth-of-type(2) {
+  font-size: 14px;
+  color: #00000090;
+}
+.destinations .container .boxs .row .col-12 i {
+  color: #fd787b;
+}
