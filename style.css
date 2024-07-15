@@ -254,7 +254,6 @@ main {
 .contact-us .container .row .col-12 .picture {
   position: relative;
   z-index: 1;
-  border: solid red 2px;
 }
 .contact-us .container .box {
   background-color: white;
@@ -319,4 +318,63 @@ main {
 }
 .destinations .container .boxs .row .col-12 i {
   color: #fd787b;
+}
+/*-----------------------Rating--------------------
+-------------------------------------------------*/
+.rating {
+  margin: 200px 0px;
+}
+.rating .container .row .col-12 .rate {
+  background-color: white;
+  border-radius: 50px;
+  position: relative;
+}
+.rating .container .row .col-12 {
+  max-height: 100%;
+}
+.rating .container .row .col-12 .rate .bi-quote {
+  color: #00000043;
+  font-size: 150px;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 40%;
+  transform: translateY(-40px);
+}
+.rating .container .row .col-12 .rate .rate-details p:nth-of-type(1) {
+  font-size: 18px;
+  color: black;
+  font-weight: 450;
+  line-height: 1.8;
+}
+.rating .container .row .col-12 .rate .rate-details p:nth-of-type(2) {
+  font-size: 20px;
+  color: #3e86f5;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.rating .container .row .col-12 .rate .rate-details p:nth-of-type(3) {
+  font-size: 20px;
+  color: #0000006b;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.rating .container .row .col-12 .rate .rate-details img {
+  padding: 5px 30px;
+  background-color: white;
+  transform: translateY(40px);
+  border-radius: 40%;
+}
+.rating .container .np i {
+  font-size: 30px;
+  color: #3e86f5;
+  cursor: pointer;
+}
+.rating .container .np {
+  gap: 20px;
+}
+@media (max-width: 992px) {
+  .rating .container .np {
+    visibility: hidden;
+  }
 }
