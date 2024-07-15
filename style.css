@@ -378,3 +378,38 @@ main {
     visibility: hidden;
   }
 }
+/*-----------------------Top Footer--------------------
+-------------------------------------------------*/
+.top-footer .container {
+  border-radius: 100px;
+  border: solid red 6px;
+  z-index: 3;
+  position: relative;
+  clip-path: inset(0);
+}
+.top-footer .container img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  inset: 0;
+  z-index: 1;
+  border-radius: 100px;
+}
+.top-footer .container h1 {
+  color: white;
+  font-size: 48px;
+  position: relative;
+  z-index: 2;
+  font-weight: 500;
+}
+.top-footer .container a {
+  color: #3e86f5;
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  border-radius: 30px;
+  text-decoration: none;
+}
