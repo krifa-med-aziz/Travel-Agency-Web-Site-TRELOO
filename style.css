@@ -147,6 +147,7 @@ header .landing-page p {
 -------------------------------------------------*/
 main {
   background-color: #f7f6f6;
+  padding-bottom: 100px;
 }
 .offers .container .buttons a {
   text-decoration: none;
@@ -381,11 +382,23 @@ main {
 /*-----------------------Top Footer--------------------
 -------------------------------------------------*/
 .top-footer .container {
-  border-radius: 100px;
-  border: solid red 6px;
-  z-index: 3;
+  border-radius: 80px;
   position: relative;
   clip-path: inset(0);
+  background-image: url(assets/feature_03FEA.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.top-footer .container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.484);
+  z-index: 0;
+  border-radius: 80px;
 }
 .top-footer .container img {
   position: fixed;
@@ -403,6 +416,7 @@ main {
   position: relative;
   z-index: 2;
   font-weight: 500;
+  padding: 0px 250px;
 }
 .top-footer .container a {
   color: #3e86f5;
@@ -412,4 +426,43 @@ main {
   background-color: white;
   border-radius: 30px;
   text-decoration: none;
+}
+@media (max-width: 1200px) {
+  .top-footer .container h1 {
+    padding: 0px;
+  }
+}
+@media (max-width: 992px) {
+  .top-footer .container h1 {
+    font-size: 30px;
+  }
+  .top-footer .container a {
+    font-size: 15px;
+  }
+}
+/*-----------------------footer--------------------
+-------------------------------------------------*/
+footer {
+  background-color: #f7f6f6;
+  padding: 10px 0px;
+  border: solid red 2px;
+}
+footer .container .row .col-12 p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.5);
+}
+footer .container .row .col-12 .links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  transition: ease-in-out;
+}
+footer .container .row .col-12 .links a:hover {
+  text-decoration: underline;
+  transition: ease-in-out;
+}
+footer .container .designer {
+  font-size: 14px;
+  color: #7c7c7c;
 }
