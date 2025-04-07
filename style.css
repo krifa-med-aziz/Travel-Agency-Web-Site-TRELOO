@@ -425,7 +425,7 @@ main {
   color: #00000090;
   transition: 0.2s ease-in-out;
 }
-.destinations .container .links a:nth-of-type(1) {
+.destinations .container .links a.active {
   background-color: white;
 }
 .destinations .container .links a:hover {
@@ -702,6 +702,7 @@ form {
   grid-template-columns: 1fr 1.5fr;
   grid-template-rows: auto auto;
   gap: 1rem 1rem;
+  align-items: center;
 }
 .form__input {
   width: 100%;
@@ -731,9 +732,16 @@ form {
   outline: none;
   background-color: white;
 }
-
+.modal__title {
+  font-size: 4rem;
+  color: #0d6efd;
+  margin-bottom: 3rem;
+}
 .form__label {
   font-size: 1.3rem;
   font-weight: bold;
   text-align: left;
+}
+a {
+  cursor: pointer;
 }

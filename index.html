@@ -166,9 +166,11 @@
           <div
             class="buttons my-5 d-flex align-items-center justify-content-center"
           >
-            <div class="bt-links p-3 text-center d-inline-block">
-              <a class="bg-primary text-light me-3" href="#">Team</a
-              ><a class="me-3" href="#">Couple</a><a href="#">Family</a>
+            <div class="bt-links p-3 text-center d-inline-block offers__links">
+              <a class="bg-primary text-light me-3 offer__link" id="team"
+                >Team</a
+              ><a class="me-3 offer__link" id="couple">Couple</a
+              ><a class="offer__link" id="family">Family</a>
             </div>
           </div>
           <div class="offers-details">
@@ -305,10 +307,13 @@
       <div class="destinations section" id="destinations">
         <div class="container">
           <h1 class="text-center">Recommended Destination</h1>
-          <div class="links my-5 d-flex justify-content-center">
-            <a class="me-2 text-primary py-2 px-3" href="#">Populor</a
-            ><a class="me-2 py-2 px-3" href="#">Adventure</a
-            ><a class="py-2 px-3" href="#">Beath</a>
+          <div
+            class="links my-5 d-flex justify-content-center destinations__links"
+          >
+            <a class="me-2 text-primary py-2 px-3 active destination__link"
+              >Populor</a
+            ><a class="me-2 py-2 px-3 destination__link">Adventure</a
+            ><a class="py-2 px-3 destination__link">Beath</a>
           </div>
           <div class="boxs">
             <div class="row gy-4">
@@ -479,6 +484,7 @@
       </div>
     </footer>
     <div class="bookNow hidden">
+      <h1 class="modal__title">Treloo</h1>
       <button class="btn--close-modal form__btn">&times;</button>
       <form class="modal__form">
         <label class="form__label">Name*</label>
